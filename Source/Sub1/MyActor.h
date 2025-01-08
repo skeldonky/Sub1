@@ -13,6 +13,8 @@ class SUB1_API AMyActor : public AActor
 	
 public:	
 	FVector2D start;
+	int32 evCnt;
+	int totDist;
 
 	// Sets default values for this actor's properties
 	AMyActor();
@@ -27,6 +29,10 @@ public:
 
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	//이 함수는 도전과제
+	//거리 확인
+	float distance(FVector2D first, FVector2D second);
 
 	//이동
 	void move();

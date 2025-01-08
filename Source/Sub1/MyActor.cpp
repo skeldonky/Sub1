@@ -34,6 +34,11 @@ void AMyActor::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 }
 
+float AMyActor::distance(FVector2D first, FVector2D second)
+{
+	return 0.0f;
+}
+
 //move 호출시 이동
 void AMyActor::move()
 {
