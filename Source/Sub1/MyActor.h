@@ -40,4 +40,6 @@ public:
 	//랜덤 숫자 0~1
 	int32 step();
 
+	//이벤트 함수
+	int32 createEvent();
 };
